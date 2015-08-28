@@ -1,0 +1,80 @@
+body {
+    background-color: #C2C2A3;
+}
+
+.header .container {
+    width: 40rem;
+    margin: 5rem auto;
+    text-align: center;
+    /*border: 1px solid;*/
+}
+
+.header .container h1 {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.header .container h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.doors .container {
+    width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+    /*border: 1px solid;*/
+}
+
+.doors .container ul li {
+    display: inline-block;
+    /*--border: 1px solid;--*/
+    height: 20rem;
+    width: 10rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.doors .container h2 {
+    padding-top: 3rem;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#door1 {
+    background-color: #800000;
+}
+
+#door2 {
+    background-color: #003300;
+}
+
+#door3 {
+    background-color: #003399;
+}
+
+.response {
+	display: none;
+}
+
+.response h5 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.win {
+	box-shadow: 0px 0px 45px #FFFF00;
+    -webkit-box-shadow: 0px 0px 45px #FFFF00;
+    -mox-box-shadow: 0px 0px 45px #FFFF00;
+}
+
+.logo img{
+	height: 2rem; 
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}

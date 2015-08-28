@@ -1,0 +1,64 @@
+.logo img{
+	height: 3rem; 
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}
+
+body {
+	background-color: #FFCC99;
+}
+
+.container {
+	margin-top: 5rem;
+}
+
+.col-xs-4 {
+	text-align: center;
+}
+
+.left img {
+	max-width: 100%;
+}
+
+.right img {
+	max-width: 100%;
+	float: right;
+}
+
+.rock-left, .rock-right, .paper-left, .paper-right, .scissors-left, .scissors-right {
+	display: none;
+}
+
+.bounce {
+	-webkit-animation: bounce 1s infinite;
+	-moz-animation: bounce 1s infinite;
+	-o-animation: bounce 1s infinite;
+	animation: bounce 1s infinite;
+}
+
+.col-xs-12 {
+	text-align: center;
+}
+
+#rock, #paper, #scissors {
+	font-size: 2rem;
+	background-color: #66CCFF;
+	border: none;
+	border-radius: 10px;
+	padding: 1rem;
+	margin: 1rem;
+	width: 100px;
+	box-shadow: 0px 0px 20px #000000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+	background-color: #3399FF
+}
+
+.col-mid h4 {
+	font-size: 4rem;
+	margin-top: 10rem;
+}

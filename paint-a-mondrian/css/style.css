@@ -1,0 +1,138 @@
+body {
+	background-color: #FFFFCC;
+}
+
+
+/*--Styling for Page Header--*/
+.page .title {
+	text-align: center;
+	margin-top: 2rem;
+	display: none;
+}
+
+.page .title h1 {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.page .title h3 {
+	margin-top: .5rem;
+	font-size: 1.2rem;
+	font-weight: 600; 
+}
+
+
+/*--Styling of app--*/
+.app {
+	height: 40rem;
+	width: 70rem;
+	margin: 2rem auto;
+	border: 1px solid none;
+	border-radius: 10px;
+	background-color: #F4F4F4;
+	box-shadow: 0px 0px 20px;
+	-moz-box-shadow: 0px 0px 20px;
+	-webkit-box-shadow: 0px 0px 20px;
+	display: none;
+}
+/*--Color preview column--*/
+.app .colors-col {
+	height: 100%;
+	width: 15%;
+	padding-top: .2rem;
+	display: inline-block;
+	float: left;
+}
+
+.app .colors-col #red, .app .colors-col #yellow, .app .colors-col #blue, .app .colors-col #white {
+	border: 2px solid;
+	border-radius: 100%;
+	height: 15%;
+	width: 55%;
+	margin: 25% auto;
+	box-shadow: 0px 0px 10px;
+	-moz-box-shadow: 0px 0px 10px;
+	-webkit-box-shadow: 0px 0px 10px;
+}
+
+.app .colors-col #red, .app .colors-col #yellow, .app .colors-col #blue, .app .colors-col #white:hover {
+	cursor: pointer;
+}
+
+
+/*--Color classes for canvas and color preview--*/
+.red {
+	background-color: #FF0000
+}
+
+.yellow {
+	background-color: #FFFF00;
+}
+
+.blue {
+	background-color: #0000FF;
+}
+
+.white {
+	background-color: #FFFFFF;
+}
+
+
+/*--Canvas styling--*/
+.app #canvas {
+	border: 1px solid;
+	display: inline-block;
+	height: 90%;
+	width: 80%;
+	margin: 1.5rem 0rem 0rem 1.5rem;
+}
+
+#canvas-table {
+	width: 100%;
+	height: 100%;
+}
+
+#canvas-table #r1 {
+	height: 20%;
+}
+
+#canvas-table #r2 {
+	height: 40%;
+}
+
+#canvas-table #r3 {
+	height: 15%;
+}
+
+#canvas-table #r4 {
+	height: 25%;
+}
+
+#r1 #c1, #r2 #c5, #r3 #c9, #r4 #c13 {
+	width: 15%;
+	border: 8px solid;
+}
+
+#r1 #c2, #r2 #c6, #r3 #c10, #r4 #c14 {
+	width: 40%;
+	border: 8px solid;
+}
+
+#r1 #c3, #r2 #c7, #r3 #c11, #r4 #c15 {
+	width: 20%;
+	border: 8px solid;
+}
+
+#r1 #c4, #r2 #c8, #r3 #c12, #r4 #c16 {
+	width: 25%;
+	border: 8px solid;
+}
+
+
+/*--James Cardinale logo--*/
+.logo {
+	height: 2rem;
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}

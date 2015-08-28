@@ -1,0 +1,32 @@
+body {
+	height: 100%;
+	background-color: #FFFBF7;
+}
+
+#james-logo {
+	height: 2rem;
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}
+
+.app {
+	width: 820px;
+	margin: 5rem auto;
+}
+
+.box {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	float: left;
+	background-color: 333231;
+	z-index: 1;
+}
+
+.hover {
+	box-shadow: 0px 0px 10px #FFFFCC;
+	-moz-box-shadow: 0px 0px 10px #FFFFCC;
+	-webkit-box-shadow: 0px 0px 10px #FFFFCC;
+	z-index: 99999;
+}	

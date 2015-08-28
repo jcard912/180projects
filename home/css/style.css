@@ -1,0 +1,65 @@
+html body * {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*--James Cardinale logo--*/
+#logo {
+	height: 2rem;
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}
+
+body {
+	background: -webkit-linear-gradient(#FFE8D1,#FFFAF5);
+    background: -o-linear-gradient(#FFE8D1,#FFFAF5);
+    background: -moz-linear-gradient(#FFE8D1,#FFFAF5);
+    background: linear-gradient(#FFE8D1,#FFFAF5); 
+}
+.info {
+	margin-top: 4rem;
+	margin-left: 2rem;
+	text-align: center;
+}
+
+.info h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	color: #FF6600;
+}
+
+.info h1 span {
+	font-size: 4.5rem;
+	color: #0099FF;
+}
+
+.info p {
+	margin: 2rem auto;
+	width: 85rem;
+	font-size: 1.3rem;
+	
+}
+
+.projects {
+	width: 20rem;
+	margin: 4rem auto;
+}
+
+.projects .days li {
+	margin-top: .5rem;
+}
+
+.projects .days li span {
+	font-weight: 700;
+	padding-right: 1rem;
+}
+
+.projects .days li a {
+	text-decoration: none;
+	color: #FF6600;
+}
+
+.projects .days li a:hover {
+	color: #803300;
+}

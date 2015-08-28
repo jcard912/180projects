@@ -1,0 +1,61 @@
+.logo img{
+	height: 2rem; 
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}
+
+body {
+	background-color: #666699;
+}
+
+.main {
+	/*border: 1px solid;*/
+	width: 50rem;
+	height: 40rem;
+	margin: 5rem auto;
+	text-align: center;
+}
+
+.main .announce {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 2rem;
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #E6E6E6;
+}
+
+.dice {
+	/*border: 1px solid;*/
+	height: 30rem;
+	margin-top: 1rem;
+}
+
+.die-face {
+	display: inline;
+}
+
+.die-face img {
+	height: 200px;
+	margin-top: 2rem;
+	padding: 2rem;
+}
+
+#roll-btn {
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px #000000;
+	-webkit-box-shadow: 0px 0px 20px #000000;
+	-moz-box-shadow:  0px 0px 20px #000000;
+	margin-top: .5rem;
+	font-size: 2rem;
+	background-color: #99ff66;
+	padding: 10px;
+}
+
+.shake {
+	-webkit-animation: shake 2s infinite;
+	-moz-animation: shake 2s infinite;
+	-o-animation: shake 2s infinite;
+	animation: shake 2s infinite;
+}

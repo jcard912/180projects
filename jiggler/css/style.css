@@ -1,0 +1,110 @@
+/*--James Logo--*/
+.logo img {
+    position: absolute;
+    height: 2rem;
+    top: 1rem;
+    right: 2rem;
+}
+
+.main .container {
+    width: 30rem;
+    height: 30rem;
+    margin: 10rem auto;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.main .container .tile {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.main .container #tile1 {
+    background-color: #FFFF00;
+}
+
+.main .container #tile2 {
+    background-color: #FF6600;
+}
+
+.main .container #tile3 {
+    background-color: #FF0000;
+}
+
+.main .container #tile4 {
+    background-color: #990099;
+}
+
+.main .container #tile5 {
+    background-color: #0000FF;
+}
+
+.main .container #tile6 {
+    background-color: #009933;
+}
+
+.main .container #tile7 {
+    background-color: #FFFFFF;
+}
+
+.main .container #tile8 {
+    background-color: #000000;
+}
+
+.main .container #tile9 {
+    background-color: #666666;
+}
+
+
+.bounce {
+    -webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+
+.rubberBand {
+	-webkit-animation: rubberBand 2s infinite;
+	-moz-animation: rubberBand 2s infinite;
+	-o-animation: rubberBand 2s infinite;
+	animation: rubberBand 2s infinite;
+}
+
+.flash {
+	-webkit-animation: flash 2s infinite;
+	-moz-animation: flash 2s infinite;
+	-o-animation: flash 2s infinite;
+	animation: flash 2s infinite;
+}
+
+.swing {
+	-webkit-animation: swing 2s infinite;
+	-moz-animation: swing 2s infinite;
+	-o-animation: swing 2s infinite;
+	animation: swing 2s infinite;
+}
+
+.jello {
+	-webkit-animation: jello 2s infinite;
+	-moz-animation: jello 2s infinite;
+	-o-animation: jello 2s infinite;
+	animation: jello 2s infinite;
+}
+
+.wobble {
+	-webkit-animation: wobble 2s infinite;
+	-moz-animation: wobble 2s infinite;
+	-o-animation: wobble 2s infinite;
+	animation: wobble 2s infinite;
+}
+
+.shake {
+	-webkit-animation: shake 2s infinite;
+	-moz-animation: shake 2s infinite;
+	-o-animation: shake 2s infinite;
+	animation: shake 2s infinite;
+}

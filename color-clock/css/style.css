@@ -1,0 +1,42 @@
+body {
+	color: #FFFFFF;
+}
+
+.logo img{
+	height: 2rem; 
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}
+
+.main {
+	width: 50rem;
+	margin: 10rem auto;
+}
+
+.main h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 1rem;
+	text-shadow: 0px 0px 20px #000000;
+	-moz-text-shadow: 0px 0px 20px #000000;
+	-webkit-text-shadow: 0px 0px 20px #000000;
+}
+
+.main .clock, .main .color {
+	text-align: center;
+	margin-top: 1rem;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 6rem;
+	font-weight: 900;
+	letter-spacing: 10px;
+	text-shadow: 0px 0px 40px #000000;
+	-moz-text-shadow: 0px 0px 40px #000000;
+	-webkit-text-shadow: 0px 0px 40px #000000;
+}
+
+.main .clock .time {
+	display: inline;
+}

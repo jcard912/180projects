@@ -1,0 +1,41 @@
+html body * {
+	font-family: 'Courier New', Courier, monospace;
+	color: #191A19;
+}
+
+body {
+    background-color: #F6FFF6;
+}
+
+/*--Logo--*/
+#logo {
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
+
+#title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+#info {
+	margin: 5rem 10rem;
+	font-weight: 600;
+	opacity: .4;
+}
+
+#top-message {
+	margin-left: 5rem;
+	position: fixed;
+
+}
+
+#bottom-message {
+	/*margin-left: 5.49rem;*/
+	margin: 98.78rem 0rem 0rem 5.49rem;
+	padding-bottom: 100rem;
+}
